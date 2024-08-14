@@ -61,11 +61,11 @@ class _SillyDecisionMakerState extends State<SillyDecisionMaker> {
               ),
             ],
           ),
-          SizedBox(height: 20),
-          Divider(
+          const SizedBox(height: 20),
+          const Divider(
             thickness: 0.2,
           ),
-          Text('Written By Myo Than Htike')
+          const Text('Written By Myo Than Htike')
         ],
       ),
     );
