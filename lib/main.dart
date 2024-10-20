@@ -35,7 +35,6 @@ class SillyDecisionMaker extends StatefulWidget {
 
 class _SillyDecisionMakerState extends State<SillyDecisionMaker> {
   int rambo = 1;
-
   get onPressed => null;
   void randomBro() {
     rambo = Random().nextInt(5) + 1;
